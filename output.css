@@ -588,6 +588,32 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+  /* output.css */
+
+/* For rounded-4xl */
+.rounded-4xl {
+    border-radius: 2rem; /* Adjust this value as needed, e.g., 32px, 2.5rem */
+}
+
+/* ... other custom classes will go here ... */
+  /* For general gradients */
+.bg-linear-to-b {
+    background-image: linear-gradient(to bottom, var(--gradient-from, #fff), var(--gradient-to, #000));
+}
+.bg-linear-to-tr {
+    background-image: linear-gradient(to top right, var(--gradient-from, #fff), var(--gradient-to, #000));
+}
+.bg-linear-to-t {
+    background-image: linear-gradient(to top, var(--gradient-from, #fff), var(--gradient-to, #000));
+}
+
+/* Define your custom colors */
+.from-\[\#00c9ff\] { --gradient-from: #00c9ff; }
+.to-\[\#0094ff\] { --gradient-to: #0094ff; }
+.from-\[\#f2deaa\] { --gradient-from: #f2deaa; }
+.to-\[\#e3cb8a\] { --gradient-to: #e3cb8a; }
+.from-\[\#f69b08\] { --gradient-from: #f69b08; }
+.to-\[\#fd6e6b\] { --gradient-to: #fd6e6b; }
   .hover\:gap-10 {
     &:hover {
       @media (hover: hover) {
