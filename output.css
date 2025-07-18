@@ -45,6 +45,9 @@
     padding: 0;
     border: 0 solid;
   }
+  img{
+    height:700px;
+  }
   html, :host {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
